@@ -1,7 +1,7 @@
 solutions = [
   {
     "name": "src",
-    "url": "https://gitlab.fydeos.xyz/chromium-source/chromium.git",
+    "url": "https://github.com/openFyde/chromium.git",
     "managed": False,
     "custom_deps": {},
     "custom_vars": {},
