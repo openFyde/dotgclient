@@ -1,10 +1,21 @@
 solutions = [
   {
     "name": "src",
-    "url": "https://github.com/openFyde/chromium.git",
+    "url": "https://gerrit.openfyde.cn/chromium.googlesource.com/chromium/src",
     "managed": False,
     "custom_deps": {},
-    "custom_vars": {},
+    "custom_vars": {
+        'android_git': 'https://gerrit.openfyde.cn/android.googlesource.com',
+        'aomedia_git': 'https://gerrit.openfyde.cn/aomedia.googlesource.com',
+        'boringssl_git': 'https://gerrit.openfyde.cn/boringssl.googlesource.com',
+        'chromium_git': 'https://gerrit.openfyde.cn/chromium.googlesource.com',
+        'dawn_git': 'https://gerrit.openfyde.cn/dawn.googlesource.com',
+        'pdfium_git': 'https://gerrit.openfyde.cn/pdfium.googlesource.com',
+        'quiche_git': 'https://gerrit.openfyde.cn/quiche.googlesource.com',
+        'skia_git': 'https://gerrit.openfyde.cn/skia.googlesource.com',
+        'swiftshader_git': 'https://gerrit.openfyde.cn/swiftshader.googlesource.com',
+        'webrtc_git': 'https://gerrit.openfyde.cn/webrtc.googlesource.com',
+    },
   },
 ]
 target_os = ["chromeos"]
